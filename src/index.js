@@ -26,7 +26,7 @@ const __dirname = path.dirname(__filename);
 // Server config
 const app = express();
 const PROTOCOL = process.env.PROTOCOL || "http";
-const HOST = process.env.HOST || "localhost";
+const HOST = process.env.HOST || "0.0.0.0";
 const PORT = process.env.PORT || 3000;
 const ENV = process.env.NODE_ENV || "development";
 const API_VERSION = process.env.API_VERSION || "v1";
