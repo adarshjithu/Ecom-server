@@ -109,7 +109,7 @@ await connectDB();
 app.use(errorHandler);
 
 // === START SERVER ===
-app.listen(PORT, HOST, () => {
+app.listen(PORT, () => {
     console.log(clc.blueBright("────────────────────────────────────────────"));
     console.log(`${clc.green("🚀 Server Started Successfully")}`);
     console.log(`${clc.cyan("🌐 Environment")} : ${clc.whiteBright(ENV)}`);
