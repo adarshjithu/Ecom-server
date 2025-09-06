@@ -43,7 +43,7 @@ import "./config/passport.js";
 import { JWT_SECRET } from "./config/index.js";
 import errorHandler from "./middlewares/errorHandler.js";
 
-const allowedOrigins = ["http://localhost:5173", "http://localhost:5174", "http://localhost:3000", "https://medico.oxiumev.com"];
+const allowedOrigins = ["http://localhost:5173", "http://localhost:5174", "http://localhost:3000", "https://medico.oxiumev.com","https://ecom-dashboard-beta.vercel.app/"];
 
 // === MIDDLEWARE ===
 app.use(
